@@ -1,6 +1,3 @@
-
-
-
 import { addUser } from "../ActionType/ActionType";
 import { initialState } from "../State/UserState";
 
@@ -11,11 +8,11 @@ const userReducer = (state = initialState, action) => {
         ...state,
         users: action.payload,
       };
-      case addUser:
-        return{
-          ...state,
-          addUser: [...state.users, action.payload],
-        }
+    case addUser:
+      return {
+        ...state,
+        addUser: [...state.users, action.payload],
+      };
     default:
       return state;
   }

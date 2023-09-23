@@ -6,35 +6,32 @@ import Home from "../Home/Home";
 import AddUser from "../AllUser/AddUser";
 
 const Routes = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout />,
 
-    {
-        path:"/",
-        element: <MainLayout/>,
-       
-        children: [
-            {
-                path: "/",
-                element: <Home/>,
-            },
-            {
-                path: "/home",
-                element: <Home/>,
-            },
-            {
-                path: "/user",
-                element: <UsersList/>
-            },
-            {
-                path: "/user/:id", // Fix the path here
-                element: <UserProfile/>
-            },
-            {
-                path: "/addUser",
-                element: <AddUser/>
-            }
-        ]
-    },
-    
-    
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/home",
+        element: <Home />,
+      },
+      {
+        path: "/user",
+        element: <UsersList />,
+      },
+      {
+        path: "/user/:id", // Fix the path here
+        element: <UserProfile />,
+      },
+      {
+        path: "/addUser",
+        element: <AddUser />,
+      },
+    ],
+  },
 ]);
-export default Routes
+export default Routes;
