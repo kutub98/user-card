@@ -39,14 +39,14 @@ const AddUser = () => {
   };
 
   return (
-    <section className=" dark:bg-gray-800 dark:text-gray-50 px-16">
+    <section className=" dark:bg-gray-800 dark:text-gray-50 px-8 lg:px-16">
       <form
         noValidate=""
         action=""
-        className="container flex flex-col mx-auto space-y-12"
+        className="container flex flex-col"
       >
         <form
-          className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm dark:bg-gray-900"
+          className="grid grid-cols-4 gap-2  rounded-md shadow-sm dark:bg-gray-900"
           onSubmit={handleSubmit}
         >
           <div className="space-y-2 col-span-full lg:col-span-1">
