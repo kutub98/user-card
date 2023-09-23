@@ -12,8 +12,8 @@ const UserProfile = () => {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-      <div className="col-span-1 md:col-span-3 lg:col-span-4 h-60 md:h-80 lg:h-[320px] relative flex justify-center p-8 bg-gradient-to-r from-violet-500 to-fuchsia-500 z-0">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-16">
+      <div className="col-span-1 md:col-span-3 lg:col-span-4 h-60 md:h-80 lg:h-[320px] relative flex justify-center bg-gradient-to-r from-violet-500 to-fuchsia-500 z-0">
         <img
           src={user.image}
           alt={user.username}
@@ -21,7 +21,7 @@ const UserProfile = () => {
         />
       </div>
 
-      <div className="col-span-1 md:col-span-2 lg:col-span-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-4 md:px-12">
+      <div className="col-span-1 md:col-span-2 lg:col-span-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:px-12">
         <div className="m-2">
           <h1 className="text-center bg-black text-white">
             Personal Information

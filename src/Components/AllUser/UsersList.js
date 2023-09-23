@@ -23,7 +23,7 @@ const UsersList = () => {
   }, [dispatch]);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-4 px-16">
       {users.map((user) => (
         <div key={user.id} className="cols-span-12 justify-center ">
           <div className="flex flex-col justify-center  p-6 shadow-md rounded-xl md:mx-4 mb-8 sm:px-12 dark:bg-gray-900 dark:text-gray-100">
