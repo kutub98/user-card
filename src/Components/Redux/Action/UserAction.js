@@ -1,0 +1,1 @@
+export const allUser = "ALL_USERS"

@@ -1,0 +1,155 @@
+{
+    "users": [
+      {
+        "id":"1",
+        "username": "john_doe",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@email.com",
+        "age": 30,
+        "image": "https://www.interaction.fi/wp-content/uploads/2017/05/businessman-portrait.jpg",
+        "address": {
+          "street": "123 Main Street",
+          "city": "Anytown",
+          "state": "CA",
+          "zip_code": "12345"
+        }
+      },
+      {
+        "id":"2",
+        "username": "jane_smith",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@email.com",
+        "age": 28,
+        "image": "https://images.assetsdelivery.com/compings_v2/mavoimage/mavoimage1601/mavoimage160100167.jpg",
+        "address": {
+          "street": "456 Elm Avenue",
+          "city": "Another City",
+          "state": "NY",
+          "zip_code": "67890"
+        }
+      },
+      {
+        "id":"3",
+        "username": "mike_jones",
+        "first_name": "Mike",
+        "last_name": "Jones",
+        "email": "mike.jones@email.com",
+        "age": 35,
+        "image": "https://as1.ftcdn.net/v2/jpg/02/94/62/14/1000_F_294621430_9dwIpCeY1LqefWCcU23pP9i11BgzOS0N.jpg",
+        "address": {
+          "street": "789 Oak Road",
+          "city": "Smallville",
+          "state": "TX",
+          "zip_code": "54321"
+        }
+      },
+      {
+        "id":"4",
+        "username": "sara_wilson",
+        "first_name": "Sara",
+        "last_name": "Wilson",
+        "email": "sara.wilson@email.com",
+        "age": 25,
+        "image": "https://as1.ftcdn.net/v2/jpg/02/94/62/14/1000_F_294621464_gRvjvxA4DMbWacKimJwaKFdBkAGOQvlx.jpg",
+        "address": {
+          "street": "101 Pine Lane",
+          "city": "Hometown",
+          "state": "IL",
+          "zip_code": "98765"
+        }
+      },
+      {
+        "id":"5",
+        "username": "david_brown",
+        "first_name": "David",
+        "last_name": "Brown",
+        "email": "david.brown@email.com",
+        "age": 40,
+        "image": "https://as2.ftcdn.net/v2/jpg/02/10/83/05/1000_F_210830568_fnOKZu0A8neWFxW6IvXxzzwxNW8enZPJ.jpg",
+        "address": {
+          "street": "222 Cedar Street",
+          "city": "Villageville",
+          "state": "OH",
+          "zip_code": "13579"
+        }
+      },
+      {
+        "id":"6",
+        "username": "emily_davis",
+        "first_name": "Emily",
+        "last_name": "Davis",
+        "email": "emily.davis@email.com",
+        "age": 29,
+        "image": "https://t4.ftcdn.net/jpg/02/32/87/95/360_F_232879585_VrjtACAFvzHRuEP8fH8K5EhRkOThuS4G.webp",
+        "address": {
+          "street": "333 Maple Drive",
+          "city": "Townsville",
+          "state": "NC",
+          "zip_code": "24680"
+        }
+      },
+      {
+        "id":"7",
+        "username": "robert_jackson",
+        "first_name": "Robert",
+        "last_name": "Jackson",
+        "email": "robert.jackson@email.com",
+        "age": 33,
+        "image": "https://img.freepik.com/premium-photo/business-office-corporate-concept-handsome-cheerful-blond-bearded-guy-classic-suit-sitting-table-company-desk-with-laptop-papers-smartphone-cup-coffee-write-report-manage-business_1258-5846.jpg",
+        "address": {
+          "street": "444 Birch Lane",
+          "city": "Cityville",
+          "state": "FL",
+          "zip_code": "86420"
+        }
+      },
+      {
+        "id":"8",
+        "username": "laura_anderson",
+        "first_name": "Laura",
+        "last_name": "Anderson",
+        "email": "laura.anderson@email.com",
+        "age": 27,
+        "image": "https://media.istockphoto.com/id/1040913300/photo/portrait-of-young-startup-businessman-sitting-in-small-modern-office-and-looking-at-camera.jpg?s=612x612&w=0&k=20&c=FTHNoLnh6ax966KB6AHuvQ89Yua2oiFUHTSo5OUS4jA=",
+        "address": {
+          "street": "555 Redwood Road",
+          "city": "Hamletville",
+          "state": "GA",
+          "zip_code": "35791"
+        }
+      },
+      {
+        "id":"9",
+        "username": "william_miller",
+        "first_name": "William",
+        "last_name": "Miller",
+        "email": "william.miller@email.com",
+        "age": 31,
+        "image": "https://t4.ftcdn.net/jpg/04/36/52/69/360_F_436526998_I7I3xTi6tjLs1AEHAUWOR0zlmZz4zEV8.jpg",
+        "address": {
+          "street": "666 Willow Street",
+          "city": "Riverside",
+          "state": "WA",
+          "zip_code": "98701"
+        }
+      },
+      {
+        "id":"10",
+        "username": "olivia_wright",
+        "first_name": "Olivia",
+        "last_name": "Wright",
+        "email": "olivia.wright@email.com",
+        "age": 26,
+        "image": "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+        "address": {
+          "street": "777 Sycamore Lane",
+          "city": "Villagetown",
+          "state": "MI",
+          "zip_code": "65432"
+        }
+      }
+    ]
+  }
+  
