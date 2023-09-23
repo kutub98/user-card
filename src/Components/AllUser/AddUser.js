@@ -39,7 +39,7 @@ const AddUser = () => {
   };
 
   return (
-    <section className="p-6 dark:bg-gray-800 dark:text-gray-50 px-16">
+    <section className=" dark:bg-gray-800 dark:text-gray-50 px-16">
       <form
         noValidate=""
         action=""
