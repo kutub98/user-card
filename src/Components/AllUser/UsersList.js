@@ -8,14 +8,14 @@ const UsersList = () => {
   const dispatch = useDispatch();
   const users = useSelector((state) => state.users);
   useEffect(() => {
-    // Replace with actual data fetching logic
+    
     const fetchData = async () => {
       try {
-        const response = await fetch('/users.json'); // Replace with your API endpoint
+        const response = await fetch('/users.json'); 
         const data = await response.json();
         console.log(data);
 
-        // Dispatch the action using the correct action type
+       
         dispatch(allUser(data.users));
       } catch (error) {
         console.error('Error fetching user data:', error);
@@ -38,15 +38,15 @@ const UsersList = () => {
 			          <h2 className="text-xl font-semibold sm:text-2xl">{user.username}</h2>
 		          </div>
 		          <div className="flex justify-center pt-2 space-x-4 align-center">
-			<Link to={user?.email} rel="noopener noreferrer" aria-label="Dribble" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
+			        <Link to={user?.email} rel="noopener noreferrer" aria-label="Dribble" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
 				
-			</Link>
-			<Link to={user?.email} rel="noopener noreferrer" aria-label="Twitter" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
+			        </Link>
+			        <Link to={user?.email} rel="noopener noreferrer" aria-label="Twitter" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
 				
-			</Link>
-			<Link to={user?.email} rel="noopener noreferrer" aria-label="Email" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
+			        </Link>
+			        <Link to={user?.email} rel="noopener noreferrer" aria-label="Email" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">
 				
-			</Link>
+			        </Link>
 		            </div>
                 <Link className='p-2 rounded text-white bg-green-600' to={`/user/${user?.id}`}>View Details</Link>
 	            </div>

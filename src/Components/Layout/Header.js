@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import "./Header.css"
 const Header = () => {
     return (
-        <div className="navbar bg-base-100 z-10">
+        <div className="navbar bg-base-100 z-10 topHeader">
   <div className="navbar-start sticky top-0">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
